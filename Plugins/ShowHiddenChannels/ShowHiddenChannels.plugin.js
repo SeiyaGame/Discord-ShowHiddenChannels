@@ -1,5 +1,5 @@
 /**
- * @name ShowHiddenChannels
+ * @name ShowHiddenChannels_OLD
  * @author DevilBro
  * @authorId 278543574059057154
  * @version 3.2.5
@@ -7,9 +7,9 @@
  * @invite Jx3TjNS
  * @donate https://www.paypal.me/MircoWittrien
  * @patreon https://www.patreon.com/MircoWittrien
- * @website https://mwittrien.github.io/
- * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ShowHiddenChannels/
- * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Plugins/ShowHiddenChannels/ShowHiddenChannels.plugin.js
+ * @website https://github.com/SeiyaGame/Discord-ShowHiddenChannels
+ * @source https://github.com/SeiyaGame/Discord-ShowHiddenChannels/tree/main/Plugins/ShowHiddenChannels
+ * @updateUrl https://raw.githubusercontent.com/SeiyaGame/Discord-ShowHiddenChannels/main/Plugins/ShowHiddenChannels/ShowHiddenChannels.plugin.js
  */
 
 module.exports = (_ => {
@@ -25,9 +25,9 @@ module.exports = (_ => {
 		getDescription () {return `The Library Plugin needed for ${this.name} is missing. Open the Plugin Settings to download it. \n\n${this.description}`;}
 		
 		downloadLibrary () {
-			require("request").get("https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js", (e, r, b) => {
+			require("request").get("https://raw.githubusercontent.com/SeiyaGame/Discord-ShowHiddenChannels/main/Library/0BDFDB.plugin.js", (e, r, b) => {
 				if (!e && b && r.statusCode == 200) require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "0BDFDB.plugin.js"), b, _ => BdApi.showToast("Finished downloading BDFDB Library", {type: "success"}));
-				else BdApi.alert("Error", "Could not download BDFDB Library Plugin. Try again later or download it manually from GitHub: https://mwittrien.github.io/downloader/?library");
+				else BdApi.alert("Error", "Could not download BDFDB Library Plugin. Try again later or download it manually from GitHub: https://github.com/SeiyaGame/Discord-ShowHiddenChannels/blob/main/Library/0BDFDB.plugin.js");
 			});
 		}
 		
