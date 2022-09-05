@@ -7,9 +7,9 @@
  * @invite Jx3TjNS
  * @donate https://www.paypal.me/MircoWittrien
  * @patreon https://www.patreon.com/MircoWittrien
- * @website https://mwittrien.github.io/
- * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library/
- * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js
+ * @website https://github.com/SeiyaGame/Discord-ShowHiddenChannels
+ * @source https://github.com/SeiyaGame/Discord-ShowHiddenChannels/tree/main
+ * @updateUrl https://raw.githubusercontent.com/SeiyaGame/Discord-ShowHiddenChannels/main/0BDFDB.plugin.js
  */
 
 module.exports = (_ => {
@@ -1180,6 +1180,7 @@ module.exports = (_ => {
 					else parseCSS(fs.existsSync(cssFilePath) && (fs.readFileSync(cssFilePath) || "").toString());
 				});
 			};
+
 			const loadLibrary = _ => {
 				Internal.getPluginURL = function (plugin) {
 					plugin = plugin == BDFDB && Internal || plugin;
@@ -8930,6 +8931,8 @@ module.exports = (_ => {
 				else loadComponents();
 			};
 			requestLibraryHashes(true);
+
+			
 			
 			this.loaded = true;
 			if (!BDFDB.BDUtils.isPluginEnabled(this.name)) BDFDB.BDUtils.enablePlugin(this.name);
