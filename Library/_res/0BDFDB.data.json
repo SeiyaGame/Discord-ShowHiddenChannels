@@ -221,7 +221,6 @@
 		"PatchMap": {
 			"AuditLogs": "GuildSettingsAuditLog",
 			"BannedCard": "BannedUser",
-		  "ChannelList": "Channels",
 			"ChannelWindow": "Channel",
 			"InvitationCard": "InviteRow",
 			"InviteCard": "InviteRow",
@@ -248,7 +247,7 @@
 			"ChannelCategoryItem": {"strings": ["GUILD_CATEGORY", "CREATE_CHANNEL", "addButtonIcon"], "path": "default.DecoratedComponent"},
 			"ChannelMember": {"class": "member"},
 			"ChannelMembers": {"class": "members"},
-			"ChannelList": {"class": "guildchannels"},
+			"Channels": {"class": "guildchannels"},
 			"ChannelTextAreaForm": {"class": "chatform"},
 			"ChannelWindow": {"class": "chatcontent"},
 			"ChatMessage": {"strings": ["childrenMessageContent", "childrenRepliedMessage", "message.id"]},
