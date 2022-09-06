@@ -17,7 +17,7 @@ Go to this path:  `C:\Users\<USER>\AppData\Roaming\BetterDiscord\plugins` then d
 - `ShowHiddenChannels.plugin.js`
 - `ShowHiddenChannels.config.json`
 
-# Third, Download new files
+# Second, Download new files
 
 Go to this path:  `C:\Users\<USER>\AppData\Roaming\BetterDiscord\plugins` then download these two files and put them here:
 
