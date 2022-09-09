@@ -2,7 +2,9 @@
 
 The creator of this plugin is [DevilBro](https://mwittrien.github.io/)
 
-I changed some things to keep the plugin working ! 
+I have completely reworked the plugin so that it can use the BDFDB library from **DevilBro** !
+
+:warning: No need to use the custom BDFDB library :warning:
 
 How to use **ShowHiddenChannels**, follow these steps :arrow_down:
 
@@ -21,5 +23,8 @@ Go to this path:  `C:\Users\<USER>\AppData\Roaming\BetterDiscord\plugins` then d
 
 Go to this path:  `C:\Users\<USER>\AppData\Roaming\BetterDiscord\plugins` then download these two files and put them here:
 
-- [BDFDB](https://raw.githubusercontent.com/SeiyaGame/Discord-ShowHiddenChannels/main/Library/0BDFDB.plugin.js)
-- [ShowHiddenChannels](https://raw.githubusercontent.com/SeiyaGame/Discord-ShowHiddenChannels/main/Plugins/ShowHiddenChannels/ShowHiddenChannels.plugin.js)
+- [BDFDB from DevilBro](https://betterdiscord.app/plugin/BDFDB)
+
+This `ShowHiddenChannels` file has been renamed by `ReShowHiddenChannels`. To prevent it from being deleted by the BDFDB library
+
+- [ShowHiddenChannels](https://raw.githubusercontent.com/SeiyaGame/Discord-ShowHiddenChannels/main/ReShowHiddenChannels.plugin.js)
