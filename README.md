@@ -1,3 +1,6 @@
+# UPDATE
+ :warning: AFTER BETTERDISCORD UPDATE ALL PLUGINS IS NOW NOT WORKING! JUST WAIT FOR [BDFDB](https://betterdiscord.app/plugin/BDFDB) FIX ! :warning: 
+
 # Who is the Creator ?
 
 The creator of this plugin is [DevilBro](https://mwittrien.github.io/)
