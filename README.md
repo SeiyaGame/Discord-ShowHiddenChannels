@@ -1,5 +1,7 @@
-# UPDATE
- :warning: AFTER BETTERDISCORD UPDATE ALL PLUGINS IS NOW NOT WORKING! JUST WAIT FOR [BDFDB](https://betterdiscord.app/plugin/BDFDB) FIX ! :warning: 
+# !!! READ THIS !!!
+
+I have absolutely no time to completely rewrite the plugin. My current work takes too much time. 
+If you want an update of the plugin, I let you go to [JustOptimize](https://github.com/JustOptimize/return-ShowHiddenChannels) repo
 
 # Who is the Creator ?
 
